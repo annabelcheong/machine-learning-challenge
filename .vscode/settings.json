@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/Users/annabelcheong/opt/anaconda3/envs/PythonAdv/bin/python"
+    "python.pythonPath": "/Users/annabelcheong/opt/anaconda3/envs/PythonAdv/bin/python",
+    "jupyter.jupyterServerType": "local"
 }

@@ -4,11 +4,11 @@ Week 21 Homework
 ## Exoplanet Exploration Analysis
 In the assignment, 4 models were attempted. 
 
-model1: Deep Learning Model (using neural network)
-model2: Logistic Regression Model
-model3: SVC Model
-model3_improved: SVC Model using GridSearchCV
-model4: Random Forest Model
+- model1: Deep Learning Model (using neural network)
+- model2: Logistic Regression Model
+- model3: SVC Model
+- model3_improved: SVC Model using GridSearchCV
+- model4: Random Forest Model
 
 ## Assumptions
 The variables (in the rawdata csv file) are defined by the NASA Exoplanet Science Institute in the following link:

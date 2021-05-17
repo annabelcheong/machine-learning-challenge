@@ -14,9 +14,9 @@ In the assignment, 4 models were attempted.
 The variables (in the rawdata csv file) are defined by the NASA Exoplanet Science Institute in the following link:
 https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html
 
-Not all variables are used. For instance, for the project disposition variables, only the koi_disposition was used as the dependent Y variable. 
+Not all variables are used. For instance, for the project disposition variables, only the koi_disposition was used as the dependent y variable. 
 
-There are many dependent variables in the dataset and some work was done to trial and error the accuracy when variables were dropped. Variables which had a positive impact and increased accuracy more significantly were kept in the analysis. For example, koi_duration_err1 increased the accuracy by 0.6% amongst the other dependent variables. 
+There are many independent variables in the dataset and some work was done to trial and error the accuracy when variables were dropped. Variables which had a positive impact and increased accuracy more significantly were kept in the analysis. For example, koi_duration_err1 increased the accuracy by 0.6% amongst the other dependent variables. Additionally, the Random Forest feature importances was used to help refine the x variable list.
 
 ## Findings
 The dependent variables selected have a huge impact on the accuracy of the model. 

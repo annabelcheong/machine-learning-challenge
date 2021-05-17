@@ -5,9 +5,10 @@ Week 21 Homework
 In the assignment, 3 models were attempted. 
 
 model1: Deep Learning Model (using neural network)
-model2: Logistic Regression
+model2: Logistic Regression Model
 model3: SVC Model
 model3_improved: SVC Model using GridSearchCV
+model4: Random Forest Model
 
 ### Assumptions
 The variables (in the rawdata csv file) are defined by the NASA Exoplanet Science Institute in the following link:
@@ -36,6 +37,9 @@ The Logistic Regression model for the fitted data is 84.5% (test data) which is 
 The SVC model itself yielded a 83.9% accuracy (test data).
 When the GridSearchCV was implemented on using the SVC model, the accuracy was 88.5%. That is almost a significant 5% increase in accuracy!
 It should be made aware that the parameters on GridSearchCV has been further refined to a value which optimised the accuracy; a value of C=250, gamma=0.007 was used to yield the result.
+
+# Random Forest (Model4)
+The Random Forest model was most accurate at 90.3% accuracy (test data); the most accurate of all the models performed in this assignment.
 
 ---------------------------
 ## Repository Structure

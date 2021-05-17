@@ -30,14 +30,10 @@ Similarly, the parameters for the GridSearchCV model also had more of an impact 
 
 
 # Logistic Regression (Model2)
-
-
-
-
-
+The Logistic Regression model for the fitted data is 84.5% (test data) which is a fairly robust percentage for the general public's use case, assuming they are using the model for curiousity and not used to plan and send rockets up to the exoplanets.
 
 # SVC Model and SVC Model with GridSearchCV (Model3)
-The SVC model itself yielded a 83.9% accuracy.
+The SVC model itself yielded a 83.9% accuracy (test data).
 When the GridSearchCV was implemented on using the SVC model, the accuracy was 88.5%. That is almost a significant 5% increase in accuracy!
 It should be made aware that the parameters on GridSearchCV has been further refined to a value which optimised the accuracy; a value of C=250, gamma=0.007 was used to yield the result.
 

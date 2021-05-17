@@ -34,12 +34,15 @@ To refine accuracy further, an additional hidden layer could be added on with 6 
 The Logistic Regression model for the fitted data is 84.5% (test data) which is a fairly robust percentage for the general public's use case, assuming they are using the model for curiousity and not used to plan and send rockets up to the exoplanets.
 
 ### SVC Model and SVC Model with GridSearchCV (Model3)
-The SVC model itself yielded a 83.9% accuracy (test data).
-When the GridSearchCV was implemented on using the SVC model, the accuracy was 88.5%. That is almost a significant 5% increase in accuracy!
+- The SVC model itself yielded a 83.9% accuracy (test data).
+- The SVC model with GridSearchCV gave a higher value at 88.5% accuracy (test data). 
+That is almost a significant 5% increase in accuracy!
 It should be made aware that the parameters on GridSearchCV has been further refined to a value which optimised the accuracy; a value of C=250, gamma=0.007 was used to yield the result.
 
 ### Random Forest (Model4)
-The Random Forest model was most accurate at 90.3% accuracy (test data); the most accurate of all the models performed in this assignment.
+The Random Forest model was most accurate at 90.3% accuracy (test data).
+The n_estimator number tend to vary within 1% (n_estimator values between 200 and 400 were used experimentally). In the end, once a high accuracy was attained, the n_estimator was 360. 
+This model was the most accurate of all the models performed in this assignment.
 
 ---------------------------
 ## Repository Structure

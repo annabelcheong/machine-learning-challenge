@@ -46,10 +46,10 @@ This model was the most accurate of all the models performed in this assignment.
 
 ---------------------------
 ## Repository Structure
-- FOLDER: Resources
+- ### FOLDER: Resources
     - exoplanet.csv: CSV file containing the raw data of the exoplanets.
 
-- FOLDER: Models
+- ### FOLDER: Models
     - The model folder contains all saved models (produced from the jupyter notebooks in this repository). 
         - model1.sav
         - model2.sav
@@ -57,7 +57,7 @@ This model was the most accurate of all the models performed in this assignment.
         - model3_withGridSearchCV
         - model4.sav
 
-- FILE: exoplanet.ipynb
+- ### FILE: exoplanet.ipynb
     - Cleanup/ Pre-processing and preparation of data. 
     - Train, Test, Split the data. 
     - Scaled the data (X-variables)
@@ -66,14 +66,14 @@ This model was the most accurate of all the models performed in this assignment.
         - 1: CONFIRMED
         - 2: FALSE POSITIVE
         
-- FILE: model1.ipynb
+- ### FILE: model1.ipynb
 Deep Learning Model code
 
-- FILE: model2.ipynb
+- ### FILE: model2.ipynb
 Logistic Regression code
 
-- FILE: model3.ipynb
+- ### FILE: model3.ipynb
 SVC code and SVC with GridSearchCV code
 
-- FILE: model4.ipynb
+- ### FILE: model4.ipynb
 Random Forest code

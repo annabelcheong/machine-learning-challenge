@@ -15,13 +15,31 @@ https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html
 
 Not all variables are used. For instance, for the project disposition variables, only the koi_disposition was used as the dependent Y variable. 
 
-There are often more than one variable value (2 or 3 in most cases) for each name parameter, so some of these have been stripped from the analysis. For example, for stellar parameter 'koi_steff', only 'koi_steff_err1' is in the analysis, with 'koi_steff_err2' removed. Overall, this reduces the time for the code to run and improved its accuracy.  
+There are many dependent variables in the dataset and some work was done to trial and error the accuracy when variables were dropped. Variables which had a positive impact and increased accuracy more significantly were kept in the analysis. For example, koi_duration_err1 increased the accuracy by 0.6% amongst the other dependent variables. 
 
 ### Findings
+The dependent variables selected have a huge impact on the accuracy of the model. 
+Similarly, the parameters for the GridSearchCV model also had more of an impact than expected. 
+
+## Test Data Results
+
+# Deep Learning (Model1)
 
 
 
 
+
+# Logistic Regression (Model2)
+
+
+
+
+
+
+# SVC Model and SVC Model with GridSearchCV (Model3)
+The SVC model itself yielded a 83.9% accuracy.
+When the GridSearchCV was implemented on using the SVC model, the accuracy was 88.5%. That is almost a significant 5% increase in accuracy!
+It should be made aware that the parameters on GridSearchCV has been further refined to a value which optimised the accuracy; a value of C=250, gamma=0.007 was used to yield the result.
 
 ---------------------------
 ## Repository Structure

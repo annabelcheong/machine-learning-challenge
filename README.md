@@ -22,12 +22,12 @@ The dependent variables selected have a huge impact on the accuracy of the model
 Similarly, the parameters for the GridSearchCV model also had more of an impact than expected. 
 
 ## Test Data Results
+Overall, the SVC Model with GridSearchCV yielded the most accurate model with 88.5% accuracy (test data). 
 
 # Deep Learning (Model1)
-
-
-
-
+The model was compiled but unable to be fitted due to memory constraints on laptop. The code is avaiable in model1.ipynb.
+The intention was to have 29 inputs, 1 hidden layer with 6 nodes and 3 possible outputs.
+To refine accuracy further, an additional hidden layer could be added on with 6 nodes. 
 
 # Logistic Regression (Model2)
 The Logistic Regression model for the fitted data is 84.5% (test data) which is a fairly robust percentage for the general public's use case, assuming they are using the model for curiousity and not used to plan and send rockets up to the exoplanets.
@@ -40,18 +40,29 @@ It should be made aware that the parameters on GridSearchCV has been further ref
 ---------------------------
 ## Repository Structure
 ### FOLDER: Resources
-- #### cumulative.csv
+
+### FOLDER: Models
+The model folder contains all saved models (produced from the jupyter notebooks in this repository). 
+
+### exoplanet.csv
 CSV file containing the raw data of the exoplanets.
 
-### FILE: exoplanet_ETL.ipynb
-- 
+### FILE: exoplanet.ipynb
+Cleanup/ Pre-processing and preparation of data. 
+- Train, Test, Split the data. 
+- Scaled the data (X-variables)
+- Encoded the data as follows:
+    - 0: CANDIDATE
+    - 1: CONFIRMED
+    - 2: FALSE POSITIVE
 
 ### FILE: model1.ipynb
-
+Deep Learning Model code
 
 ### FILE: model2.ipynb
-
+Logistic Regression code
 
 ### FILE: bestmodel.h5
-
+- SVC code and 
+- SVC code + GridSearchCV code (The combination yielded a model with higher accuracy)
 
